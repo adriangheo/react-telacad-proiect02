@@ -60,7 +60,6 @@ class Product extends React.Component {
                             </button>
                             <p><span className="font-weight-bold">Mărime</span>: {product.size}</p>
                             <p><span className="font-weight-bold">Culoare</span>: {product.colour}</p>
-                            <p><span className="font-weight-bold">Material</span>: {product.material}</p>
                             <p><span className="font-weight-bold">Brand</span>: {product.brand}</p>
                             <p className="font-weight-bold mb-1">Descriere:</p>
                             <p>{product.description}</p>

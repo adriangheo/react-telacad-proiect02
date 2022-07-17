@@ -1,0 +1,61 @@
+{
+    "phones":{
+        "items": [
+
+        ],
+        "image": "",
+        "name": "Smart Phones",
+        "description": "Iphone, Samsung, Huawei and many more"
+    },
+    "tablets":{
+        "items": [
+
+        ],
+        "image": "",
+        "name": "Tablets",
+        "description": "Apple Ipads, Samsung Tabs and other such things"
+    },
+    "laptops":{
+        "items": [
+
+        ],
+        "image": "",
+        "name": "Laptops",
+        "description": "All the best laptops!"
+    },
+    "smartwatches":{
+        "items": [
+        ],
+        "image": "",
+        "name": "Smartwatches",
+        "description": "Coolest smartwatches!"
+    },
+    "tvs":{
+        "items": [
+
+        ],
+        "image": "",
+        "name": "Television Sets",
+        "description": "SmartTVs and more!"
+    },
+    "foto":{
+        "items": [
+
+        ],
+        "image": "",
+        "name": "Foto Cameras",
+        "description": "Best Cameras for Photography"
+    },
+    "consoles":{
+        "items": [
+
+        ],
+        "image": "",
+        "name": "Game Consoles",
+        "description": "Coolest Game Consoles"
+    }
+
+
+
+
+}

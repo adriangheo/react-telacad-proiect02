@@ -3,22 +3,22 @@
         "items": [
             {
                 "id": 1,
-                "name": "iPhone7",
-                "price": 529,
+                "name": "Sneakerși piele Massimo Dutti",
+                "price": 135,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/vl02SEh.jpg",
+                "image": "https://i.imgur.com/Rz8lVQa.jpg",
                 "size": 45,
                 "colour": "Negru",
                 "material": "Piele",
-                "brand": "apple",
+                "brand": "Massimo Dutti",
                 "description": "Sneakerși din piele cu talpă inițial albă, din colecția de toamnă-iarnă 2019, Massimo Dutti."
             },
             {
                 "id": 2,
-                "name": "Samsung Note 10",
-                "price": 1249,
+                "name": "Teniși negri Polo Ralph Lauren",
+                "price": 100,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/w1MMYA4.jpg",
+                "image": "https://i.imgur.com/Og3Oh24.jpg",
                 "size": 45,
                 "colour": "Negru",
                 "material": "Pânză",
@@ -27,10 +27,10 @@
             },
             {
                 "id": 3,
-                "name": "Huawei P40 Lite",
-                "price": 649,
+                "name": "Ghete din piele maro Massimo",
+                "price": 185,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/CYKVZ5J.jpg",
+                "image": "https://i.imgur.com/zoqSu87.jpg",
                 "size": 45,
                 "colour": "Maro",
                 "material": "Piele",
@@ -38,9 +38,9 @@
                 "description": "Ghete maro din piele, din colecția de toamnă-iarnă 2017, Massimo Dutti."
             }
         ],
-        "image": "https://i.imgur.com/u7cleFS.jpg",
-        "name": "Smart Phones",
-        "description": "iPhone, Samsung, Huawei and many more!"
+        "image": "https://i.imgur.com/X0qldXO.jpg",
+        "name": "Încălțăminte",
+        "description": "Ghete, pantofi, sneakerși: finețe garantată!"
     },
     "sweaters": {
         "items": [
@@ -93,9 +93,9 @@
                 "description": "Pulovăr din lână cu model, colecția toamnă-iarnă 2019, Massimo Dutti."
             }
         ],
-        "image": "https://i.imgur.com/aaevmXf.jpg",
-        "name": "Tablets",
-        "description": "Apple iPads, Samsung Tabs and other such things"
+        "image": "https://i.imgur.com/SZU7liE.jpg",
+        "name": "Pulovere",
+        "description": "Pulovărașe elegănțele, slim, clasă superioară."
     },
     "pants": {
         "items": [
@@ -124,9 +124,9 @@
                 "description": "Blugi negri, slim fit, colecția toamnă-iarnă 2019, DS Damat."
             }
         ],
-        "image": "https://i.imgur.com/gkAd9HI.jpg",
-        "name": "Laptops",
-        "description": "All the best laptops!"
+        "image": "https://i.imgur.com/srQCDRN.jpg",
+        "name": "Pantaloni/blugi",
+        "description": "Jeanși și pantaloni pentru baieții care și-o ard patroni!"
     },
     "jackets": {
         "items": [
@@ -155,9 +155,9 @@
                 "description": "Geacă bleumarin cu glugă detașabilă, colecția toamnă-iarnă 2019, DS Damat."
             }
         ],
-        "image": "https://i.imgur.com/plRTQdv.jpg",
-        "name": "Smartwatches",
-        "description": "Coolest smartwatches!"
+        "image": "https://i.imgur.com/81I6Oab.jpg",
+        "name": "Geci/Haine",
+        "description": "Confortabile, călduroase și nu arăți ca un cartof!"
     },
     "tshirts": {
         "items": [
@@ -198,9 +198,9 @@
                 "description": "Tricoul purtat de Borussia Dortmund în sezonul competițional 2018-2019, cu numarul 7 și numele 'SANCHO'. Tricoul este semnat de portarul Borussiei, Roman Burki."
             }
         ],
-        "image": "https://i.imgur.com/VucSyBZ.jpg",
-        "name": "TVs",
-        "description": "SmartTVs and more!"
+        "image": "https://i.imgur.com/l27WtFL.jpg",
+        "name": "Tricouri",
+        "description": "Și de băiețeală și de sport."
     },
     "accesories": {
         "items": [
@@ -229,8 +229,8 @@
                 "description": "Mănuși din piele, cu model, din colecția toamnă-iarnă 2018, DS Damat."
             }
         ],
-        "image": "https://i.imgur.com/ML7kkOw.jpg",
-        "name": "Foto Cameras",
-        "description": "Best Cameras for Photography"
+        "image": "https://i.imgur.com/qw3wDj8.jpg",
+        "name": "Accesorii",
+        "description": "Fulare, căciuli, mănuși: nu mai sta pe gânduri, cumpără-le acuși!"
     }
 }
