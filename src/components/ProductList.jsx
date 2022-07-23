@@ -5,7 +5,10 @@ function ProductList(props) {
     const { products } = props;
 
     return (
-        <div className="row my-4">
+        <div 
+        className="row my-4"
+        style={{background: "pink"}}
+        >
             { products.map((product) => {
                 return <ProductItem
                     {...product}

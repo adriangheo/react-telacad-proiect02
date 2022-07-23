@@ -4,7 +4,7 @@ const initialState = {
 
 export function favoritesReducer(state = initialState, action) {
     switch (action.type) {
-        case 'ADD_TO_CART':
+        case 'ADD_TO_FAVORITES':
             let productInFavorites = false;
             const updatedFavProducts = state.favProducts.map(product => {
                 if (product.id === action.payload.product.id) {
@@ -33,7 +33,7 @@ export function favoritesReducer(state = initialState, action) {
                     favProducts: updatedFavProducts
                 });
             }
-        case 'REMOVE_FROM_CART':
+        case 'REMOVE_FROM_FAVORITES':
             const filteredFavProducts = state.favProducts.filter(product => {
                 return product.id !== action.payload.id
             });
