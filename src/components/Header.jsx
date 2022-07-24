@@ -37,7 +37,7 @@ function Header(props) {
                         <div className="d-flex align-items-center">
                             <Link to="/cart" className="d-flex">
                                 <Favorite className="ml-2"/>
-                                <p className="ml-1 mb-0">{ props.numberOfProducts }</p>
+                                <p className="ml-1 mb-0">{ props.numberOfFavorites.favProducts.length }</p>
                             </Link>
                         </div>
                     </div>
