@@ -1,8 +1,9 @@
 import React from "react";
 import Layout from '../components/Layout';
+import { connect } from 'react-redux';
 
-class Favorites extends React.Component{
-    render(){
+
+function Favorites(props){
         return(
             <div>
                 <Layout>
@@ -15,7 +16,6 @@ class Favorites extends React.Component{
                 </Layout>
             </div>
         )
-    }
 }
 
 export default Favorites
