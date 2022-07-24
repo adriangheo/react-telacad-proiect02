@@ -18,4 +18,16 @@ function Favorites(props){
         )
 }
 
-export default Favorites
+function mapStateToProps(state) {
+    console.log("state.cart.products.length:", state.cart.products.length);
+    console.log("state.user.data:", state.user.data);
+    console.log("state.favProducts:", state.favProducts);
+    console.log("state.favorites:", state.favorites);
+    return {
+        numberOfProducts: state.cart.products.length,
+        user: state.user.data,
+        numberOfFavorites: state.favorites
+    }
+}
+
+export default connect(mapStateToProps, )(Favorites);
