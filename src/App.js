@@ -10,6 +10,7 @@ import Category from './pages/Category';
 import Cart from './pages/Cart';
 import './utils/utility-classes.css';
 import Product from './pages/Product';
+import Favorites from './pages/Favorites';
 
 function App() {
   return(
@@ -22,6 +23,7 @@ function App() {
         <Route path="/terms-and-conditions" component={Terms}/>
         <Route path="/category/:categoryName" component={Category}/>
         <Route path="/product/:productId" component={Product}/>
+        <Route path="/favorites" component={Favorites}/>
         <Route path="*" component={Page404}/>
       </Switch>
     </div>
