@@ -72,17 +72,15 @@ function Favorites(props){
 }
 
 function mapStateToProps(state) {
-    console.log("--------------");
-    console.log("state.favorites.favProducts.length:", state.favorites);
-    console.log("state.cart.favProducts.length:", state.favorites);
-    console.log("--------------");
-    console.log("state.favorites:", state.favorites);
-    console.log("state.favorites.favProducts:", state.favorites.favProducts);
+    // console.log("--------------");
+    // console.log("state.favorites.favProducts.length:", state.favorites);
+    // console.log("state.cart.favProducts.length:", state.favorites);
+    // console.log("--------------");
+    // console.log("state.favorites:", state.favorites);
+    // console.log("state.favorites.favProducts:", state.favorites.favProducts);
     
-    console.log("state ------:", state)
+    // console.log("state ------:", state)
     return {
-        user: state.user.data,
-        numberOfFavorites: state.favorites.favProducts.length,
         favProducts: state.favorites.favProducts
     }
 }
