@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from '../components/Layout';
 import { connect } from 'react-redux';
-import { removeFromCart } from '../redux/actions/cart';
+import { removeFromFavorites } from '../redux/actions/favorites';
 import { Link } from 'react-router-dom';
 import { ReactComponent as Close} from '../assets/icons/close.svg';
 
@@ -41,7 +41,7 @@ function Favorites(props){
                                     <p className="w-25">{ product.quantity }</p>
                                     <div className="w-25 d-flex justify-content-center">
                                         <p className="mr-2">{ product.price * product.quantity } { product.currency }</p>
-                                        <div onClick={() => props.removeFromCart({id: product.id})}>
+                                        <div onClick={() => props.removeFromFavorites({id: product.id})}>
                                             <Close />
                                         </div>
                                     </div>
@@ -59,7 +59,7 @@ function Favorites(props){
                         </div>
                     </div>
                     : <div className="d-flex flex-column align-items-center">
-                        <p className="h3">Nu ai produse în coș!</p>
+                        <p className="h3">Nu ai produse în Favorite!</p>
                         <Link to="/"><button className="btn btn-outline-dark">Inapoi la home</button></Link>
                     </div>
                 }
@@ -89,7 +89,7 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch) {
     return {
-        removeFromCart: (payload) => dispatch(removeFromCart(payload))
+        removeFromFavorites: (payload) => dispatch(removeFromFavorites(payload))
     };
 }
 
