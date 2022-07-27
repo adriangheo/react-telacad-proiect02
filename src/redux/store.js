@@ -1,8 +1,8 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
-import { cartReducer } from './reducers/cart';
-import { userReducer } from './reducers/user';
-import { favoritesReducer } from './reducers/favorites';
+import { cartReducer } from './cart/CartReducer';
+import { userReducer } from './user/UserReducer.js';
+import { favoritesReducer } from './favorites/FavoritesReducer';
 
 import thunk from 'redux-thunk';
 import logger from 'redux-logger';

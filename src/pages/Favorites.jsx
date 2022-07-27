@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from '../components/Layout';
 import { connect } from 'react-redux';
-import { removeFromFavorites } from '../redux/actions/favorites';
+import { removeFromFavorites } from '../redux/favorites/FavoritesActions'
 import { Link } from 'react-router-dom';
 import { ReactComponent as Close} from '../assets/icons/close.svg';
 
