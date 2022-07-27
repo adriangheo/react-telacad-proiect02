@@ -7,13 +7,6 @@ import { ReactComponent as Close} from '../../assets/icons/close.svg';
 
 
 function Favorites(props){
-    // console.clear();
-    console.log("props.favorites: ", props.favorites);
-    console.log("props.cart: ", props.cart);
-    console.log("--------------");
-    console.log("props: ", props);
-
-
     return(
         <Layout>
             <div 
@@ -71,14 +64,6 @@ function Favorites(props){
 }
 
 function mapStateToProps(state) {
-    // console.log("--------------");
-    // console.log("state.favorites.favProducts.length:", state.favorites);
-    // console.log("state.cart.favProducts.length:", state.favorites);
-    // console.log("--------------");
-    // console.log("state.favorites:", state.favorites);
-    // console.log("state.favorites.favProducts:", state.favorites.favProducts);
-    
-    // console.log("state ------:", state)
     return {
         favProducts: state.favorites.favProducts
     }
