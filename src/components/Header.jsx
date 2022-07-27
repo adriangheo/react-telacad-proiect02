@@ -8,7 +8,8 @@ import { connect } from 'react-redux';
 import { logoutUser } from '../redux/actions/user';
 
 function Header(props) {
-    console.log("props: ", props)
+    
+    // console.log("props: ", props)
     return(
         <header 
         className="border-bottom mb-3"
@@ -48,10 +49,11 @@ function Header(props) {
 }
 
 function mapStateToProps(state) {
-    console.log("state.cart.products.length:", state.cart.products.length);
-    console.log("state.user.data:", state.user.data);
-    console.log("state.favProducts:", state.favProducts);
-    console.log("state.favorites:", state.favorites);
+    // console.log("state.cart.products.length:", state.cart.products.length);
+    // console.log("state.cart.products: ", state.cart.products);
+    // console.log("state.user.data:", state.user.data);
+    // console.log("state.favProducts:", state.favProducts);
+    // console.log("state.favorites:", state.favorites);
     return {
         numberOfProducts: state.cart.products.length,
         user: state.user.data,
