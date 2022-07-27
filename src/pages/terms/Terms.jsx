@@ -1,11 +1,11 @@
 import React from 'react';
-import Layout from '../components/Layout';
+import Layout from '../../components/layout/Layout';
 
-function About() {
+function Terms() {
     return(
         <div>
             <Layout>
-                <h1>About</h1>
+                <h1>Terms and Conditions</h1>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim, nulla non sagittis efficitur, leo enim euismod ex, a auctor nibh massa porta ex. Donec mattis pellentesque maximus. Phasellus dolor tortor, luctus a eros at, faucibus pulvinar purus. In id sapien lobortis elit tincidunt efficitur. Mauris est sem, malesuada ut congue vitae, interdum a ante. Ut in orci sed libero ultrices elementum sed non nulla. Etiam hendrerit quis quam eget gravida. Suspendisse lacinia cursus ipsum vitae congue.</p>
                 <p>Morbi consequat odio at metus iaculis venenatis. In hac habitasse platea dictumst. Etiam non elit sed velit pellentesque pharetra. Sed dignissim lacus imperdiet facilisis aliquam. Praesent ornare rutrum fringilla. Sed eu ipsum eget lectus bibendum lobortis. In nec ex ullamcorper dolor vestibulum gravida. Nunc et magna neque. Ut lacus massa, elementum et dapibus porttitor, eleifend a erat. Ut imperdiet mi nibh. Proin ullamcorper lacinia libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas ullamcorper quam sed velit semper, sed accumsan metus interdum. Curabitur vel mi id mi hendrerit vulputate sed vel dolor. Donec sed mi leo.</p>
@@ -18,4 +18,4 @@ function About() {
     );
 }
 
-export default About;
+export default Terms;
