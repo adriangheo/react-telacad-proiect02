@@ -4,6 +4,8 @@ import products from '../utils/products.json';
 import './Product.css';
 import { connect } from 'react-redux';
 import { addToCart } from '../redux/actions/cart';
+import { addToFavorites } from '../redux/actions/favorites';
+
 
 class Product extends React.Component {
     constructor(props) {
@@ -34,7 +36,9 @@ class Product extends React.Component {
 
         return (
             <Layout>
-                <div className="product-page container-fluid container-min-max-width">
+                <div 
+                className="product-page container-fluid container-min-max-width"
+                style={{background:"blue"}}>
                     <h1 className="my-5 h2">{product.name}</h1>
                     <div className="product-info d-flex">
                         <div className="image-wrapper d-flex mr-5">
@@ -58,6 +62,22 @@ class Product extends React.Component {
                             >
                                 Adaugă în coș
                             </button>
+                            <button
+                                className="btn btn-outline-dark"
+                                onClick={() => {
+                                    this.props.addToFavorites({
+                                        product: {
+                                            id: product.id,
+                                            name: product.name,
+                                            price: product.price,
+                                            currency: product.currency,
+                                            image: product.image
+                                        }
+                                    })
+                                }}
+                            >
+                                Adaugă favorit
+                            </button>
                             <p><span className="font-weight-bold">Brand</span>: {product.brand}</p>
                             <p><span className="font-weight-bold">Culoare</span>: {product.colour}</p>
                             <p><span className="font-weight-bold">Stare</span>: {product.stare}</p>
@@ -74,8 +94,9 @@ class Product extends React.Component {
 
 function mapDispatchToProps(dispatch) {
     return {
-        addToCart: (payload) => dispatch(addToCart(payload))
-    }
+        addToCart: (product) => dispatch(addToCart(product)),
+        addToFavorites: (product) => dispatch(addToFavorites(product))
+    };
 }
 
 export default connect(null, mapDispatchToProps)(Product);

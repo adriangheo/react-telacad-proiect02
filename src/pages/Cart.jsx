@@ -15,8 +15,11 @@ function Cart(props) {
 
     return(
         <Layout>
-            <div className="cart-page container-fluid container-min-max-width
-                d-flex flex-column justify-content-center align-items-center">
+            <div 
+            className="cart-page container-fluid container-min-max-width
+                d-flex flex-column justify-content-center align-items-center"
+            style={{background: "MediumTurquoise"}}
+            >
                 {
                     props.products.length
                     ? <div className="w-100">
