@@ -5,7 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
-import store from './redux/store';
+import store from './redux2/store2';
 import { Provider } from 'react-redux';
 
 ReactDOM.render(
