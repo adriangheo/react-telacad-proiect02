@@ -7,6 +7,7 @@ import './Login.css'
 import { connect } from 'react-redux';
 import { loginUser } from '../../redux/user/UserActions';
 
+
 class Login extends React.Component {
 
     componentDidUpdate(prevProps) {
@@ -14,6 +15,11 @@ class Login extends React.Component {
             this.props.history.push('/');
         }
     }
+
+    alertFacebookNotAvailable = () => {
+        window.alert("Sorry, Facebook Login has not been implemented yet. Please try Google instead.");
+    }
+    
 
     render() {
         return(
@@ -35,7 +41,7 @@ class Login extends React.Component {
 
                 <button
                     className="btn btn-outline-dark d-flex align-items-center mb-2"
-                    onClick={() => this.props.signInWithGoogle()}
+                    onClick={() => this.alertFacebookNotAvailable()}
                 >
                     <Facebook className="w-50 mr-3"/>
                     <span className="text-nowrap">Loghează-te cu Facebook</span>
@@ -44,6 +50,7 @@ class Login extends React.Component {
         );
     }
 }
+
 
 function mapStateToProps(state) {
     return {
