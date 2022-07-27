@@ -36,9 +36,7 @@ class Product extends React.Component {
 
         return (
             <Layout>
-                <div 
-                className="product-page container-fluid container-min-max-width"
-                style={{background:"blue"}}>
+                <div className="product-page container-fluid container-min-max-width">
                     <h1 className="my-5 h2">{product.name}</h1>
                     <div className="product-info d-flex">
                         <div className="image-wrapper d-flex mr-5">

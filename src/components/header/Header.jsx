@@ -13,7 +13,6 @@ function Header(props) {
     return(
         <header 
         className="border-bottom mb-3"
-        style={{background: "green"}}
         >
             <div className="container-fluid container-min-max-width d-flex justify-content-between align-items-center">
                 <Link to="/" className="my-3">

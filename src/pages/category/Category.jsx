@@ -26,7 +26,6 @@ class Category extends Component {
             <Layout>
                 <div 
                 className="container-fluid container-min-max-width" 
-                style={{background: "blue"}}
                 >
                     <h2>{ this.state.category.name }</h2>
                     <ProductList products={this.state.items} />

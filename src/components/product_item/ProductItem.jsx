@@ -11,7 +11,6 @@ function ProductItem(props) {
     return(
         <div 
         className="product-item col-12 col-md-4 mb-3 d-flex flex-column align-items-center"
-        style={{background: "red"}}
         >
             <Link to={`/product/${id}`} className="d-flex flex-column align-items-center">
                 <img src={image} alt="productPhoto" className="mb-2"/>
