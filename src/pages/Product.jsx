@@ -63,7 +63,7 @@ class Product extends React.Component {
                                 Adaugă în coș
                             </button>
                             <button
-                                className="btn btn-outline-dark"
+                                className="btn btn-dark mb-4 font-weight-bold"
                                 onClick={() => {
                                     this.props.addToFavorites({
                                         product: {
